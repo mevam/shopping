@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>sweet</title>
+<script src="r/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="r/ui-dialog.css">
+<script src="r/dialog-min.js"></script>
+  <script type="text/javascript">
+    function ss(){
+      var d = dialog({
+    title: '欢迎',
+    content: '欢迎使用 artDialog 对话框组件！'
+});
+d.show();
+    }
+	
+	function sd(){
+	var d = dialog({
+    title: 'message',
+    content: '<input autofocus /> <br> <input type="button" value="hjkl"> <p>erfewwewewe</P>'
+});
+d.showModal();
+	}
+  </script>
+</head>
+<body>
+<input type="button" value="vvvv" onclick="sd();"></input>
+</body>
+</html>
