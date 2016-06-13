@@ -1,6 +1,8 @@
 package com.didispace;
 
-import com.didispace.service.UserService;
+import com.d7.shopping.Application;
+import com.d7.shopping.service.UserService;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
