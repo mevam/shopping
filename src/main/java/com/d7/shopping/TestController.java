@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.d7.shopping.serviceimpl.UserServiceImpl;
+import com.d7.shopping.service.serviceimpl.UserServiceImpl;
 
 
 @Controller
@@ -17,7 +17,7 @@ public class TestController {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello(){
-		userService.create("2da33",222);
+		//userService.create("2da33",222);
 		return "hew";
 	}
 	

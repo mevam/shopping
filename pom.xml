@@ -3,12 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.didispace</groupId>
-	<artifactId>Chapter3-2-1</artifactId>
+	<groupId>com.d7.shooping</groupId>
+	<artifactId>d7-shopping</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-
-	<name>Chapter3-2-1</name>
+	<name>shopping</name>
 	<description>Spring Boot with JDBCTemplate</description>
 
 	<parent>
@@ -20,7 +19,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
+		<java.version>1.7</java.version>
 	</properties>
 
 	<dependencies>
@@ -46,6 +45,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.21</version>
 		</dependency>
+		
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

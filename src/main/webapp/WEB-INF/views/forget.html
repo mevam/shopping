@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script charset="utf-8" src="/common/js/jquery.min.js?v=04.22"></script>
+<script charset="utf-8" src="/common/js/global.js?v=04.22"></script>
+<script charset="utf-8" src="/common/js/bootstrap.min.js?v=04.22"></script>
+<script charset="utf-8" src="/common/js/template.js?v=04.22"></script>
+
+<link rel="stylesheet" href="/common/css/bootstrap.css?v=04.22">
+<link rel="stylesheet" href="/common/css/style.css?v=04.22">
+<link rel="stylesheet" href="/common/css/member.css?v=04.22">
+<link rel="stylesheet" href="/common/css/order3.css?v=04.22"><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="telephone=no" name="format-detection">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1;user-scalable=no;">
+<title>找回密码</title>
+<script charset="utf-8" src="/common/js/forget.js?v=04.22"></script>
+</head>
+<body style="background-color:#fff">
+<form id="form" name="form" action="" class="form-horizontal" role="form" method="post">
+<div class="maincontainer">
+<div class="container itemdetail mini-innner">
+    <div class="row">
+    <header class="header" style="height:44px;">
+        <div class="fix_nav">
+            <div style="max-width:768px;margin:0 auto;background:#000;position: relative;">
+                <a class="nav-left back-icon" href="/login">返回</a>
+                <div class="tit">找回密码</div>
+            </div>
+        </div>
+    </header>
+    </div>
+    <div class="row mt20">
+        <div class="col-md-12">
+              <div class="form-group">
+                <label for="phone" class="col-xs-offset-1 col-xs-3 control-label p0">手机：</label>
+                <div class="col-sm-7 col-xs-8">
+                  <input name="mobile" maxlength="11" class="form-control" id="mobile" placeholder="请输入您的手机号码" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="code" class="col-xs-offset-1 col-xs-3 control-label p0">验证码：</label>
+                <div class="col-sm-4 col-xs-3 pr0">
+                  <input name="mobile_code" class="form-control" id="mobile_code" placeholder="请输入验证码" type="text">
+                </div>
+                <div class="col-sm-3 col-xs-5">
+                  <input class="form-control btn btn-primary get_mobile_code" value="获取验证码" style="padding:0px;" type="button">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="col-xs-offset-1 col-xs-3 control-label p0">新密码：</label>
+                <div class="col-sm-7 col-xs-8">
+                  <input name="password" class="form-control" id="password" placeholder="请输入您新的密码" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="col-xs-offset-1 col-xs-3 control-label p0">确认新密码：</label>
+                <div class="col-sm-7 col-xs-8">
+                  <input name="confirm" class="form-control" id="confirm" placeholder="请再次输入您新的密码" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-offset-3 col-xs-6 mt10">
+                  <button type="button" onclick="formSubmit();" class="btn btn-success vip_reg btn-lg">确认</button>
+                </div>
+              </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+	var contextPath = '';
+</script>
+</body>
+</html>

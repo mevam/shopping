@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-    
-<script charset="utf-8" src="js/jquery.min.js?v=01291"></script>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>   
+<!-- <script charset="utf-8" src="js/jquery.min.js?v=01291"></script> -->
 <script charset="utf-8" src="js/global.js?v=01291"></script>
 <script charset="utf-8" src="js/bootstrap.min.js?v=01291"></script>
 <script charset="utf-8" src="js/template.js?v=01291"></script>

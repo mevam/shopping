@@ -12,7 +12,7 @@
 		var error = '';
 </script>
 </head>
-<body class="" style="background-color:#fff">
+<body class="inner-bg" style="background-color:#fff">
 <header class="header">
     <div class="fix_nav">
         <div style="max-width:768px;margin:0 auto;background:#000000;position: relative;">
@@ -21,7 +21,7 @@
         </div>
     </div>
 </header>
-<div class="maincontainer">
+<div class="maincontainer ">
    <div class="container itemdetail mini-innner">
     <div class="row">
         <div class="col-md-12 tal mt20">
@@ -44,7 +44,6 @@
 	</div>
 </div>
 <script type="text/javascript">
-var contextPath = '';
 </script>
 </body>
 </html>

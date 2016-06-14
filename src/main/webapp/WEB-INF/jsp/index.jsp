@@ -153,6 +153,18 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
+	
+	$.ajax({
+		url:"/register",
+		type:"post",
+		data:{},
+        dataType:"json",
+        success:function(result){
+			
+		}
+	});
+	
+	
 	$("#slide img").each(function(){
 	var img_src=$(this).attr("_src");
 	$(this).attr("src",img_src);

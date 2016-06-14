@@ -1,3 +1,5 @@
+var contextPath = 'localhost:8080';
+
 jQuery.extend({
   getCookie : function(sName) {
     var aCookie = document.cookie.split("; ");
