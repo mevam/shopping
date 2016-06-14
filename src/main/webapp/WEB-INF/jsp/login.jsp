@@ -25,7 +25,7 @@
    <div class="container itemdetail mini-innner">
     <div class="row">
         <div class="col-md-12 tal mt20">
-            <form  id="theForm"  name="theForm" class="form-signin"  action="/p/j_spring_security_check" method="POST" >
+            <form  id="theForm"  name="theForm" class="form-signin"  action="/checklogin" method="POST" >
             <input type="hidden" id="returnUrl" name="returnUrl" value="http://m.legendshop.cn/p/orderDetails"/>
               
               <input name="j_username"   id="username" type="text" style="margin-bottom: -2px;-webkit-appearance:none; " class="form-control" placeholder="帐户名/手机号码" message="账号" required="true" autofocus=""  tabindex="1" >

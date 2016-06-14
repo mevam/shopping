@@ -9,6 +9,8 @@ public interface UserService {
 
 	void create();
 
+	boolean checklogin(String name, String pwd);
+
    
 
 }

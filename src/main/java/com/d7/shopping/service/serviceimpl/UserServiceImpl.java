@@ -25,6 +25,17 @@ public class UserServiceImpl implements UserService {
     public void create() {
     	userDao.addUser();
     }
+    
+    @Override
+    public boolean checklogin(String name,String pwd){
+    	User u=userDao.findUserByName(name);
+    	if(pwd.equals(u.getPassword())){
+    		return true;
+    	}
+		return false;
+    	
+    }
+    
  
 
 }

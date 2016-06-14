@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSONObject;
 import com.d7.shopping.entity.User;
@@ -32,6 +33,16 @@ public class UserHomeController {
 	@RequestMapping("/register")
 	public String register(){
 		return "register";
+	}
+	
+	@RequestMapping("/checklogin")
+	@ResponseBody
+	public String checklogin(HttpServletRequest req){
+		String name=req.getParameter("j_username");
+		String pwd=req.getParameter("j_password");
+		boolean t=userService.checklogin(name, pwd);
+		System.out.println(t);
+		return String.valueOf(t);
 	}
 	
 	@RequestMapping("/userReg")
