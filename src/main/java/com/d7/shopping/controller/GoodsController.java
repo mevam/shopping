@@ -11,5 +11,12 @@ public class GoodsController {
 	public String index(){
 		return "hotgoods";
 	}
+	
+	@RequestMapping("/goodsdetail")
+	public String goodsdetail(){
+		return "views";
+	}
+	
+	
 
 }
